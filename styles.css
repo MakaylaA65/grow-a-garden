@@ -1,0 +1,267 @@
+body {
+  background-color: #fceeea;
+  font-family: 'Georgia', serif;
+  color: #d63384;
+}
+
+.about-section {
+  padding: 60px 20px;
+}
+
+.left .logo {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 36px;
+  border: 1px solid #d63384;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 0 auto 20px;
+}
+
+.about-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 70px;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.get-to-know {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.scroll-btn {
+  display: inline-block;
+  border: 1px solid #d63384;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-style: italic;
+  color: #d63384;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.scroll-btn:hover {
+  background: #f8d1e0;
+}
+
+.skills-section {
+  background-color: #f9b3c2;
+  padding: 60px 20px;
+  color: white;
+}
+
+.skills-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.skill-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: translateY(-10px);
+}
+
+.skill-icon {
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 32px;
+  font-weight: bold;
+  padding: 30px 0;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.other-skills-section {
+  background-color: #fceeea;
+  padding: 60px 20px;
+  color: #d63384;
+}
+
+.other-skills-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.oval-skill {
+  border: 2px solid #d63384;
+  border-radius: 50px;
+  padding: 15px 30px;
+  display: inline-block;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+.rect-skill {
+  border: 2px solid #d63384;
+  border-radius: 20px;
+  padding: 20px 30px;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.skill-icon-img {
+  width: 50px;
+  height: auto;
+}
+
+.floating-icon {
+  width: 30px;
+  height: auto;
+  position: absolute;
+}
+
+.floating-icon.top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.floating-icon.bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+
+/* Projects Section Styling */
+.projects-section {
+  background-color: #ffcce0; /* light pink background */
+  color: #d63384;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.projects-heading {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #d63384;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.project-card {
+  background-color: #fff0f5;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-image {
+  border-radius: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+.project-name {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Pinyon Script', cursive;
+  color: #d63384;
+  line-height: 1.2;
+}
+
+.project-name .lastname {
+  font-size: 36px;
+}
+
+.project-subtitle {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #d63384;
+  margin-top: 10px;
+}
+
+.welcome-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 18px;
+  border: 2px solid #d63384;
+  border-radius: 30px;
+  color: #d63384;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-btn:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+.testimonials-title {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 56px; /* bigger size, change as you want */
+  margin-bottom: 30px; /* optional spacing below the title */
+  color:#d63384
+}
+
+
+.testimonial-text {
+  font-family: Arial, sans-serif;
+}
+
+.testimonial-img {
+  width: 90px;          /* ⬅️ Increase this value */
+  height: 90px;         /* ⬅️ Same here */
+  object-fit: cover;    /* Keeps the image nicely cropped */
+  border-radius: 10px;  /* Optional: rounded corners */
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background-color: #fdf6f0;
+  color: #e91e63; /* Pink color */
+  position: relative;
+  padding: 60px 40px;
+  font-family: 'Pinyon Script', cursive;
+}
+
+.contact-logo img {
+  height: 60px;
+}
+
+.contact-image img {
+  width: 180px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.contact-heading {
+  font-size: 48px;
+  font-family: 'Pinyon Script', cursive;
+  margin: 40px 0 20px;
+  color: #e91e63;
+}
+
+.and {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.talk {
+  font-style: italic;
+  font-family: 'Pinyon Script', cursive;
+  color: #e91e63;
+}
+
+.contact-info {
+  font-family: Arial, sans-se
+}
